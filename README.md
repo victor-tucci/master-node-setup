@@ -157,7 +157,7 @@ CTRL+b and d
 ```
 Paste the whole text in wallet
 ```sh
-Paste this text in elector wallet
+Paste this text in electron wallet
 ```
 ## status check
 - open node tmux 
