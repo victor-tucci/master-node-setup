@@ -56,7 +56,7 @@ cd beldex-storage-linux-x86_64-v2.2.0
 ```sh
 tmux new -s storage-server
 ```
-- Run beldexd
+- Run beldex-storage
 ```sh
 ./beldex-storage 0.0.0.0 29090 --omq-port 29089
 ```
