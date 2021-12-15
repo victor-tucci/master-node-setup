@@ -50,7 +50,7 @@ wget https://deb.beldex.io/Beldex-projects/Beldex-storage-server/deps/v2.2.0/bel
 - Extract the file
 ```sh
 unzip beldex-storage-linux-x86_64-v2.2.0.zip
-cd beldex-storage-linux-x86_64-v2.2.0.zip
+cd beldex-storage-linux-x86_64-v2.2.0
 ```
 - open tmux 
 ```sh
@@ -81,9 +81,9 @@ cd Belnet-linux-x86_64-v0.9.5
 ```sh
 tmux new -s belnet
 ```
-- Run belnet-bootstarp
+- Run belnet-bootstrap
 ```sh
-./belnet-bootstarp
+./belnet-bootstrap
 ./belnet -r -g
 ```
 - configure the belnet.ini
@@ -101,9 +101,9 @@ PRESS <insert> button
  verify .beldex directory in /root/.beldex or /home/USER/.beldex
   USER -> your user
  ```sh
-  rpc=ipc:///root/.beldex/testnet/beldexd.sock 
+  rpc=ipc:///root/.beldex/beldexd.sock 
   or
-  rpc=ipc:///home/USER/.beldex/testnet/beldexd.sock
+  rpc=ipc:///home/USER/.beldex/beldexd.sock
 ```
   enable which is suitable to you
   - save the belnet.ini file
